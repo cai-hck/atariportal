@@ -1,0 +1,108 @@
+        .dashboard-content-body {
+            background: url(../custom/img/background.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        .home-btns  {
+            background: #e3182f;
+            border: 1px solid #e3182f;
+            font-size: 20px;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .home-btns:hover, .home-btns:focus, .home-btns:active {
+            background: #e3182f !important; 
+            border-color:   #e3182f !important;
+        }
+        .custom-dropdown {
+            background: #e3182f;   
+            border-color:   #e3182f;
+        }
+        .dropdown-item:hover {
+               color: #e3182f !important;
+        }
+        .dropdown-item:focus {
+            color: #e3182f !important;
+        }
+        .dropdown-item.active, .dropdown-item:active {
+            background: #e3182f;
+        }
+        .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+            box-shadow: none !important;
+        }
+        .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+            background: #e3182f;
+        }
+        .btn-primary.focus, .btn-primary:focus {
+            box-shadow: none !important;
+        }
+        .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+            border-color:  #e3182f;
+        }
+        .swal-text {     font-size: 26px; color: black;}
+        @media screen and (max-width: 500px)  {
+            .card { margin-top: 100px;}
+            h1.circle-texts { font-size: 1.4rem;}
+            h3.circle-texts { font-size: 1.0rem;}
+            .swal-text {     font-size: 14px; color: black;}
+        }
+
+        .swal-button {
+            background-color: #e3182f;
+        }
+        .swal-footer { text-align:center; }
+
+
+        .bg-black {
+            background:black;
+            color:white;
+        }
+        .custom-home-btn {
+            background: #e3182f;
+        }
+        .btn-primary , .btn-secondary{
+            border-color:#e3182f;
+        }
+        .btn-primary:hover {
+            background: #e3182f;
+            color:white;
+            border-color:#e3182f;
+        }
+
+        .buy-text-heading {
+            font-size:20px;
+        }
+        .buy-text-heading.pretty input:checked~.state.p-danger label:after, .pretty.p-toggle .state.p-danger label:after {
+            background: #e3182f !important;
+        }
+        .payment-select {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+        #atari_amt, #usd_amt, #w-method-address {
+            color: black !important;
+            font-weight:bold;
+        }
+        .coin-image {
+            width:30px;
+        }
+        .coins-list {
+            display:flex;
+            flex-wrap: wrap;
+            padding-left:20px;
+            padding-right:20px;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* bring your own prefixes */
+            transform: translate(-50%, -50%);
+        }

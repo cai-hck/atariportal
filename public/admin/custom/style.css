@@ -1,0 +1,47 @@
+
+html {
+
+}
+
+.main-homepage {
+    width: 100%;
+    height:100vh;
+    position:relative;
+    float: left;
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    	background: url(img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+.form-group input {
+    /*width: 94%;*/
+    background: transparent;
+    padding: 10px 3%;
+    border-radius: 22px;
+    border: 2px solid #d1d0d0;
+    color: #d1d0d0;
+}
+.form-group input::placeholder {
+	color: #d1d0d0;
+}
+
+.form-group input:focus {
+	outline: none;
+}
+.form-group {
+    position: relative;
+	margin-bottom: 40px;
+}
+.form-group i {
+    position: absolute;
+    top: 9px;
+    right: 16px;
+    font-size: 19px;
+    color: #d1d0d0;
+}
